@@ -67,7 +67,7 @@ Rails.application.configure do
                      :down_retry_delay => 60
                     }
 
-  config.action_controller.perform_caching = false
+  config.action_controller.perform_caching = true
 
   # Use a real queuing backend for Active Job (and separate queues per environment)
   # config.active_job.queue_adapter     = :resque
